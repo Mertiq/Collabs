@@ -9,3 +9,4 @@ DAqn1cxtLQG,67200,Keychron,Keyboard,Lemokey L1
 DAYmGDxtiTS,38100,XVX,Keyboard,G75
 DAHEA3Rt03i,12300,Royal Kludge,Keyboard,R65
 C_vZWNZt6uD,23900,Inca,Keyboard,IKG-439
+C_vZWNZt6uD,23900,Inca,Keyboard,IKG-439
