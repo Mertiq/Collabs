@@ -131,7 +131,15 @@ fetch('videoData.txt')
         // Remove header and iterate over each line
         lines.slice(1).forEach(line => {
             console.log("Processing line:", line);
-            const [id, viewCount, brand, productType, productModel] = line.split(',');
+            const fields = line.split(',');
+            
+            // Check if all fields are available
+            if (fields.length < 5) {
+                console.error("Incomplete data in line:", line);
+                return;  // Skip this iteration if data is incomplete
+            }
+            
+            const [id, viewCount, brand, productType, productModel] = fields.map(field => field ? field.trim() : '');
 
             console.log("Parsed fields - ID:", id, "View Count:", viewCount, "Brand:", brand, "Product Type:", productType, "Product Model:", productModel);
 
@@ -143,7 +151,7 @@ fetch('videoData.txt')
             const videoElement = document.createElement('video');
             videoElement.className = 'collab-thumbnail';
             videoElement.setAttribute('controls', '');
-            videoElement.innerHTML = `<source src="videos/${id.trim()}.mp4" type="video/mp4">Your browser does not support the video tag.`;
+            videoElement.innerHTML = `<source src="videos/${id}.mp4" type="video/mp4">Your browser does not support the video tag.`;
 
             console.log("Created video element for ID:", id);
 
@@ -151,9 +159,9 @@ fetch('videoData.txt')
             const collabInfo = document.createElement('div');
             collabInfo.className = 'collab-info';
             collabInfo.innerHTML = `
-                <p>View Count: ${viewCount.trim()}</p>
-                <p>Brand: ${brand.trim()}</p>
-                <p>Product: ${productType.trim()} - ${productModel.trim()}</p>
+                <p>View Count: ${viewCount}</p>
+                <p>Brand: ${brand}</p>
+                <p>Product: ${productType} - ${productModel}</p>
             `;
 
             console.log("Created info element for ID:", id);
@@ -169,6 +177,7 @@ fetch('videoData.txt')
     })
     .catch(error => console.error('Error loading video data:', error));
 </script>
+
 
 </body>
 </html>
