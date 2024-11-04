@@ -143,7 +143,7 @@ fetch('videoData.txt')
             const videoElement = document.createElement('video');
             videoElement.className = 'collab-thumbnail';
             videoElement.setAttribute('controls', '');
-            videoElement.innerHTML = `<source src="video${id.trim()}.mp4" type="video/mp4">Your browser does not support the video tag.`;
+            videoElement.innerHTML = `<source src="${id.trim()}.mp4" type="video/mp4">Your browser does not support the video tag.`;
 
             console.log("Created video element for ID:", id);
 
