@@ -26,7 +26,7 @@ async function loadVideoData() {
         const linkElement = document.createElement('a');
         linkElement.href = video.link;
         linkElement.target = '_blank'; // Yeni sekmede açılacak
-        linkElement.innerText = `Link: ${video.link}`;
+        linkElement.innerText = `${video.link}`;
 
         // Video bilgilerini güncelle
         videoInfo.innerHTML = `${video.brand}\n${video.views} views\n`;
