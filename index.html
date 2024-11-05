@@ -133,12 +133,6 @@ fetch('videoData.txt')
             console.log("Processing line:", line);
             const fields = line.split(',');
             
-            // Check if all fields are available
-            if (fields.length < 5) {
-                console.error("Incomplete data in line:", line);
-                return;  // Skip this iteration if data is incomplete
-            }
-            
             const [id, viewCount, brand, productType, productModel] = fields.map(field => field ? field.trim() : '');
 
             console.log("Parsed fields - ID:", id, "View Count:", viewCount, "Brand:", brand, "Product Type:", productType, "Product Model:", productModel);
