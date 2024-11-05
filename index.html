@@ -151,8 +151,8 @@ fetch('videoData.txt')
             const videoElement = document.createElement('video');
             videoElement.className = 'collab-thumbnail';
             videoElement.setAttribute('controls', '');
-            console.log("ID: ${id}");
-            videoElement.innerHTML = `<source src="videos/${encodeURIComponent(id)}.mp4" type="video/mp4">Your browser does not support the video tag.`;
+            videoElement.innerHTML = `<source src="https://raw.githubusercontent.com/Mertiq/Collabs/main/videos/${id}.mp4" type="video/mp4">Your browser does not support the video tag.`;
+
 
             console.log("Created video element for ID:", id);
 
