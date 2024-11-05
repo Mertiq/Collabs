@@ -1,28 +1,78 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
+        background-color: #1c1b29;
+        font-family: Arial, sans-serif;
+        color: #c7c6e2;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+.header {
+        text-align: center;
+        padding: 20px;
+    }
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #6d60e5;
+        display: inline-block;
+    }
+    .username {
+        font-size: 36px;
+        font-weight: bold;
+        color: #ad92ff;
+        margin-top: 20px;
+    }
+    .bio {
+        font-size: 16px;
+        margin-top: 10px;
+        max-width: 600px;
+        line-height: 1.5;
+    }
+    .social-stats {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 20px;
+    }
+    .social-stats div {
+        text-align: center;
+    }
+    .social-stats img {
+        width: 40px;
+        height: 40px;
+    }
+    .social-count {
+        font-size: 20px;
+        color: #c7c6e2;
+        margin-top: 5px;
+    }
 .video-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
+    display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        max-width: 800px;
+        margin: 40px 0;
 }
 
 .video-container {
-    width: 15%; /* Halved from 30% to 15% */
-    max-width: 150px; /* Optional: Set a maximum width */
-    position: relative;
+    background-color: #292844;
+        padding: 10px;
+        border-radius: 8px;
+        text-align: center;
 }
 
 video {
     width: 100%;
-    aspect-ratio: 9 / 16;
+        aspect-ratio: 9 / 16;
+        background-color: #44416a;
+        border-radius: 8px;
+        object-fit: cover;
 }
 
 .video-info {
-    margin-top: 5px;
-    font-size: 0.9em;
-    color: #555;
+    margin-top: 10px;
+        font-size: 14px;
 }  
