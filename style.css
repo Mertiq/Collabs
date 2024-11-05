@@ -11,7 +11,8 @@ body {
 }
 
 .video-container {
-    width: 30%;
+    width: 15%; /* Halved from 30% to 15% */
+    max-width: 150px; /* Optional: Set a maximum width */
     position: relative;
 }
 
@@ -24,4 +25,4 @@ video {
     margin-top: 5px;
     font-size: 0.9em;
     color: #555;
-}
+}  
