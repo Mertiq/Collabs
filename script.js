@@ -2,10 +2,13 @@ async function loadVideoData() {
     const response = await fetch('datas.txt');
     const data = await response.text();
 
-    const videoData = data.split('\n').map(line => {
-        const [id, views, brand] = line.split(',');
-        return { id, views, brand };
-    });
+    const videoData = data
+        .split('\n')
+        .filter(line => line.trim() !== "") // Filter out any empty lines
+        .map(line => {
+            const [id, views, brand] = line.split(',');
+            return { id, views, brand };
+        });
 
     const gallery = document.getElementById('videoGallery');
     videoData.forEach(video => {
