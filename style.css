@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.video-container {
+    width: 30%;
+    position: relative;
+}
+
+video {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+}
+
+.video-info {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
