@@ -1,10 +1,11 @@
-10,7200,Darmoshark
-9,15200,Fifine
-8,20300,Rokr
-7,31700,Cidoo
-6,15900,Gateron
-5,33300,Akko
-4,67200,Keychron
-3,38100,XVX
-2,12300,Royal Kludge
-1,23900,Inca
+11,17600,Keychron,https://www.instagram.com/reel/DB_nJG4OZdn/
+10,18200,Darmoshark,https://www.instagram.com/reel/DB1Vi6NIpca/
+9,18400,Fifine,https://www.instagram.com/reel/DBtmawUoJFW/
+8,21600,Rokr,https://www.instagram.com/reel/DBjVvVeI6cG/
+7,32300,Cidoo,https://www.instagram.com/reel/DBbj_JvoH7b/
+6,16400,Gateron,https://www.instagram.com/reel/DBP3PRKIJPt/
+5,33900,Akko,https://www.instagram.com/reel/DA8yOC8uJpI/
+4,67900,Keychron,https://www.instagram.com/reel/DAqn1cxtLQG/
+3,38500,XVX,https://www.instagram.com/reel/DAYmGDxtiTS/
+2,12600,Royal Kludge,https://www.instagram.com/reel/DAHEA3Rt03i/
+1,24100,Inca,https://www.instagram.com/reel/C_vZWNZt6uD/
