@@ -60,26 +60,25 @@ body {
 
 .video-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Increased min width to enlarge */
-    gap: 25px; /* Adjusted gap slightly */
-    max-width: 1000px; /* Increased max width for a larger display */
-    margin: 50px 0; /* Increased top and bottom margin */
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        max-width: 800px;
+        margin: 40px 0;
 }
 
 .video-container {
     background-color: #292844;
-    padding: 15px; /* Increased padding */
-    border-radius: 8px;
-    text-align: center;
-    transform: scale(1.25); /* Enlarges container by 25% */
+        padding: 10px;
+        border-radius: 8px;
+        text-align: center;
 }
 
 video {
     width: 100%;
-    aspect-ratio: 9 / 16;
-    background-color: #44416a;
-    border-radius: 8px;
-    object-fit: cover;
+        aspect-ratio: 9 / 16;
+        background-color: #44416a;
+        border-radius: 8px;
+        object-fit: cover;
 }
 
 .video-info {
