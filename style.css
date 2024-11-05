@@ -83,5 +83,21 @@ video {
 
 .video-info {
     margin-top: 10px;
+    white-space: nowrap; /* Metnin tek satırda olmasını sağlar */
+    overflow: hidden; /* Taşan metni gizler */
+    text-overflow: ellipsis; /* Taşan metin için "..." gösterir */
+    width: 100%; /* Alanı genişletir */
     font-size: 14px;
+    line-height: 1.5;
 }
+
+.video-info a {
+    color: #007bff; /* Link rengini mavi yapar */
+    text-decoration: none; /* Alt çizgiyi kaldırır */
+    white-space: nowrap; /* Linkin taşmasını engeller */
+}
+
+.video-info a:hover {
+    text-decoration: underline; /* Linkin üzerine gelindiğinde alt çizgiyi ekler */
+}
+
