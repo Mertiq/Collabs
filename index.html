@@ -95,11 +95,11 @@
     <div class="social-stats">
         <div>
             <img src="instagram-icon.png" alt="Instagram Icon">
-            <div class="social-count">53600</div>
+            <div class="social-count">55200</div>
         </div>
         <div>
             <img src="youtube-icon.png" alt="YouTube Icon">
-            <div class="social-count">3070</div>
+            <div class="social-count">3000</div>
         </div>
         <div>
             <img src="tiktok-icon.png" alt="TikTok Icon">
@@ -151,6 +151,7 @@ fetch('videoData.txt')
             const videoElement = document.createElement('video');
             videoElement.className = 'collab-thumbnail';
             videoElement.setAttribute('controls', '');
+            console.log("ID", id);
             videoElement.innerHTML = `<source src="videos/${id}.mp4" type="video/mp4">Your browser does not support the video tag.`;
 
             console.log("Created video element for ID:", id);
