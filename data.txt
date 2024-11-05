@@ -1,4 +1,3 @@
-﻿ID,View Counts,Brand,Product Type,Product Model
 DB1Vi6NIpca,7200,Darmoshark,Mouse,M3 Pro Max
 DBtmawUoJFW,15200,Fifine,Microphone,AmpliGame AM6
 DBjVvVeI6cG,20300,Rokr,3D Wooden Puzzle,AK-47 Assault Rifle
