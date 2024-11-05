@@ -22,15 +22,8 @@ async function loadVideoData() {
         const videoInfo = document.createElement('div');
         videoInfo.className = 'video-info';
 
-        // Linki tıklanabilir yap
-        const linkElement = document.createElement('a');
-        linkElement.href = video.link;
-        linkElement.target = '_blank'; // Yeni sekmede açılacak
-        linkElement.innerText = `${video.link}`;
-
-        // Video bilgilerini güncelle
-        videoInfo.innerHTML = `${video.brand}\n${video.views} views\n`;
-        videoInfo.appendChild(linkElement); // Linki info kısmına ekle
+        // Marka, görüntülenme sayısı ve linki alt alta ekle
+        videoInfo.innerHTML = `${video.brand}<br>${video.views} views<br><a href="${video.link}" target="_blank">${video.link}</a>`;
 
         videoContainer.appendChild(videoElement);
         videoContainer.appendChild(videoInfo);
