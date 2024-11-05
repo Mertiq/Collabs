@@ -4,10 +4,10 @@ async function loadVideoData() {
 
     const videoData = data
         .split('\n')
-        .filter(line => line.trim() !== "") // Filter out any empty lines
+        .filter(line => line.trim() !== "") // Boş satırları filtrele
         .map(line => {
-            const [id, views, brand] = line.split(',');
-            return { id, views, brand };
+            const [id, views, brand, link] = line.split(','); // Dördüncü sütun video linki
+            return { id, views, brand, link };
         });
 
     const gallery = document.getElementById('videoGallery');
@@ -21,7 +21,7 @@ async function loadVideoData() {
         
         const videoInfo = document.createElement('div');
         videoInfo.className = 'video-info';
-        videoInfo.innerText = `${video.brand}\n${video.views} views`;
+        videoInfo.innerText = `${video.brand}\n${video.views} views\nLink: ${video.link}`; // Linki göster
 
         videoContainer.appendChild(videoElement);
         videoContainer.appendChild(videoInfo);
