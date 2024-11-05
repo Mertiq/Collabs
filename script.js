@@ -18,7 +18,7 @@ async function loadVideoData() {
         
         const videoInfo = document.createElement('div');
         videoInfo.className = 'video-info';
-        videoInfo.innerText = `${video.brand} - ${video.views} izlenme`;
+        videoInfo.innerText = `${video.brand}\n${video.views} views`;
 
         videoContainer.appendChild(videoElement);
         videoContainer.appendChild(videoInfo);
