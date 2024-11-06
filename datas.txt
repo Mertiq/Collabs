@@ -1,7 +1,7 @@
-11,17600,Keychron,https://www.instagram.com/reel/DB_nJG4OZdn/
-10,18200,Darmoshark,https://www.instagram.com/reel/DB1Vi6NIpca/
+11,27000,Keychron,https://www.instagram.com/reel/DB_nJG4OZdn/
+10,18400,Darmoshark,https://www.instagram.com/reel/DB1Vi6NIpca/
 9,18400,Fifine,https://www.instagram.com/reel/DBtmawUoJFW/
-8,21600,Rokr,https://www.instagram.com/reel/DBjVvVeI6cG/
+8,21700,Rokr,https://www.instagram.com/reel/DBjVvVeI6cG/
 7,32300,Cidoo,https://www.instagram.com/reel/DBbj_JvoH7b/
 6,16400,Gateron,https://www.instagram.com/reel/DBP3PRKIJPt/
 5,33900,Akko,https://www.instagram.com/reel/DA8yOC8uJpI/
