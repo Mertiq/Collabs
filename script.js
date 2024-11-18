@@ -23,7 +23,7 @@ async function loadVideoData() {
         videoInfo.className = 'video-info';
 
         // Marka, görüntülenme sayısı ve linki alt alta ekle
-        videoInfo.innerHTML = `${video.brand}<br>${video.views} views<br><a href="${video.link}" target="_blank">${video.link}</a>`;
+        videoInfo.innerHTML = `${video.brand} <a href="https://instagram.com/${video.brandig}" target="_blank">Instagram</a><br>${video.views} views<br><a href="${video.link}" target="_blank">watch on IG</a>`;
 
         videoContainer.appendChild(videoElement);
         videoContainer.appendChild(videoInfo);
