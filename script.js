@@ -1,13 +1,13 @@
 async function loadVideoData() {
-    const response = await fetch('datas.txt');
+    const response = await fetch('data.txt');
     const data = await response.text();
 
     const videoData = data
         .split('\n')
         .filter(line => line.trim() !== "") // Boş satırları filtrele
         .map(line => {
-            const [id, views, brand, link] = line.split(','); // Dördüncü sütun video linki
-            return { id, views, brand, link };
+            const [id, views, brand, brandig, link] = line.split(','); // Dördüncü sütun video linki
+            return { id, views, brand, brandig, link };
         });
 
     const gallery = document.getElementById('videoGallery');
