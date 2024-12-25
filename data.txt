@@ -24,3 +24,4 @@
 6,18100,Gateron,gateron.official,https://www.instagram.com/reel/DBP3PRKIJPt/
 2,13300,Royal Kludge,royal_kludge,https://www.instagram.com/reel/DAHEA3Rt03i/
 26,0,Keychron,keychron,
+27,0,Valknut,valknutgg,
