@@ -1,27 +1,28 @@
-22,88000,Emeet,emeet_official,https://www.instagram.com/reel/DDhdXv1o69h/
-4,69900,Keychron,keychron,https://www.instagram.com/reel/DAqn1cxtLQG/
-11,60100,Keychron,keychron,https://www.instagram.com/reel/DB_nJG4OZdn/
-16,58200,Sikakeyb,sikakeyb,https://www.instagram.com/reel/DCrYoYtuQ2q/
-23,56600,MelGeek,melgeek_official,https://www.instagram.com/reel/DDrwmm6u5uZ/
-21,52200,Leobog,leobog_kb,https://www.instagram.com/reel/DDZu8b8u8tq/
-24,47600,Wraith,wraithproducts,https://www.instagram.com/reel/DDze6J5OqQO/
-13,46200,XVX,xvx__keyboard,https://www.instagram.com/reel/DCRZJoIIxzg/
-14,40200,Akko,akkogear,https://www.instagram.com/reel/DCZJa4MOe0I/
+22,102000,Emeet,emeet_official,https://www.instagram.com/reel/DDhdXv1o69h/
+4,70000,Keychron,keychron,https://www.instagram.com/reel/DAqn1cxtLQG/
+26,66600,Keychron,keychron,https://www.instagram.com/reel/DEFgeMYO9xx/
+11,60300,Keychron,keychron,https://www.instagram.com/reel/DB_nJG4OZdn/
+16,58900,Sikakeyb,sikakeyb,https://www.instagram.com/reel/DCrYoYtuQ2q/
+23,66800,MelGeek,melgeek_official,https://www.instagram.com/reel/DDrwmm6u5uZ/
+21,60100,Leobog,leobog_kb,https://www.instagram.com/reel/DDZu8b8u8tq/
+24,53900,Wraith,wraithproducts,https://www.instagram.com/reel/DDze6J5OqQO/
+13,46500,XVX,xvx__keyboard,https://www.instagram.com/reel/DCRZJoIIxzg/
+14,40400,Akko,akkogear,https://www.instagram.com/reel/DCZJa4MOe0I/
 3,39400,XVX,xvx__keyboard,https://www.instagram.com/reel/DAYmGDxtiTS/
-19,37900,Drunk Deer,drunkdeerkeyboard,https://www.instagram.com/reel/DDHteHGuCYn/
-17,37700,Keychron,keychron,https://www.instagram.com/reel/DC1r4IqC_nn/
-18,36300,Dareu,dareu.global,https://www.instagram.com/reel/DC9aTICuoga/
-5,35100,Akko,akkogear,https://www.instagram.com/reel/DA8yOC8uJpI/
-12,33500,Clean My Collection,cleanmycollection,https://www.instagram.com/reel/DCHVkp-uvG3/
+19,38400,Drunk Deer,drunkdeerkeyboard,https://www.instagram.com/reel/DDHteHGuCYn/
+17,38000,Keychron,keychron,https://www.instagram.com/reel/DC1r4IqC_nn/
+18,36600,Dareu,dareu.global,https://www.instagram.com/reel/DC9aTICuoga/
+5,35200,Akko,akkogear,https://www.instagram.com/reel/DA8yOC8uJpI/
+12,33700,Clean My Collection,cleanmycollection,https://www.instagram.com/reel/DCHVkp-uvG3/
 7,32900,Cidoo,cidootech,https://www.instagram.com/reel/DBbj_JvoH7b/
-15,30100,Linsoul,linsoul.audio,https://www.instagram.com/reel/DCmRCSkobXT/
-20,27500,Klasse Gear,klassegear,https://www.instagram.com/reel/DDPa0d-ORQX/
+15,30400,Linsoul,linsoul.audio,https://www.instagram.com/reel/DCmRCSkobXT/
+20,27900,Klasse Gear,klassegear,https://www.instagram.com/reel/DDPa0d-ORQX/
 1,24700,Inca,incateknoloji,https://www.instagram.com/reel/C_vZWNZt6uD/
-25,24100,Gamakay,gamakay_official,https://www.instagram.com/reel/DD9yJyzoXzG/
-8,23800,Rokr,rokr_official,https://www.instagram.com/reel/DBjVvVeI6cG/
-10,21800,Darmoshark,https://www.instagram.com/reel/DB1Vi6NIpca/
-9,20700,Fifine,fifinemicrophone,https://www.instagram.com/reel/DBtmawUoJFW/
-6,18100,Gateron,gateron.official,https://www.instagram.com/reel/DBP3PRKIJPt/
-2,13300,Royal Kludge,royal_kludge,https://www.instagram.com/reel/DAHEA3Rt03i/
-26,0,Keychron,keychron,
+25,37700,Gamakay,gamakay_official,https://www.instagram.com/reel/DD9yJyzoXzG/
+8,23900,Rokr,rokr_official,https://www.instagram.com/reel/DBjVvVeI6cG/
+10,21900,Darmoshark,https://www.instagram.com/reel/DB1Vi6NIpca/
+9,20900,Fifine,fifinemicrophone,https://www.instagram.com/reel/DBtmawUoJFW/
+6,18200,Gateron,gateron.official,https://www.instagram.com/reel/DBP3PRKIJPt/
+2,13400,Royal Kludge,royal_kludge,https://www.instagram.com/reel/DAHEA3Rt03i/
 27,0,Valknut,valknutgg,
+28,0,Gateron,gateron.official,
